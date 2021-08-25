@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/astaxie/beego/logs"
+	"github.com/beego/beego/logs"
 	"go/ast"
 	"go/parser"
 	"go/token"
@@ -39,7 +39,7 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/astaxie/beego/utils"
+	"github.com/beego/beego/utils"
 	beeLogger "github.com/beego/bee/logger"
 	bu "github.com/beego/bee/utils"
 )
